@@ -206,7 +206,7 @@ module Kickscraper
                 path = "/discover"
             when "category", "categories"
                 api_or_search = "api"
-                path = "/v1/categories"
+                path = "/v1/categories?oauth_token=f01b86d094884aa4ec16cfc72c1b6659312f5915"
             end
             
             
